@@ -1,0 +1,6 @@
+This code represents multiple charts that are created from the data set within the "data" file. 6 bar charts are created, representing the # of stars in
+said exoplanet's solar system, # of other planets, the stars' stellar values, the exoplanet discovery method, the number of planets discovered each year,
+and the zone location of these exoplanets, determining whether they are potentially habitable or not. There is also a histogram representing the distance
+these exoplanets are from Earth. There is also a scatterplot that shows the relationship between the radius and mass of these exoplanets. Last but not
+least, there is a line chart that shows how many exoplanets were discovered each year. Each of these charts are interactive in their own way, whether that
+is through a brush, filtering, linking, or bin number, you can interact with these charts and the data is manipulated accordingly.
