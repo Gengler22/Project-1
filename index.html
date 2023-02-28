@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project 1: Out of this World</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>    
+    <!-- Add HTML content, SVG drawing area, ... -->
+    <svg id="barchart"></svg>
+    <div id="tooltip1"></div>
+    <svg id="barchart1"></svg>
+    <div id="tooltip2"></div>
+    <svg id="barchart2"></svg>
+    <div id="tooltip3"></div>
+    <svg id="barchart3"></svg>
+    <div id="tooltip4"></div>
+    <div>
+        <div style="font-size: 12px; margin-bottom: 0; margin-left: 475px">If you would like to learn more about</div>
+        <div style="font-size: 12px; margin:0; padding-top:0; margin-left: 475px">Stellar Classification, 
+            <a href="http://en.wikipedia.org/wiki/Stellar_classification">click here.</a></div>
+             
+        <div style="font-size: 12px; margin-bottom: 0; margin-left: 700px">If you would like to learn more about different</div>
+        <div style="font-size: 12px; margin:0; padding-top:0; margin-left: 700px">exoplanet discovery methods, 
+            <a href="https://www.labroots.com/trending/space/22103/exoplanet-detection-methods-science-missions-2#:~:text=While%20the%20aforementioned%20exoplanet%20detection%20methods%20account%20for,Variations%205%20Orbital%20Brightness%20Modulations%206%20Disk%20Kinematics">click here.</a></div>  
+    </div>
+    <svg id="barchart4"></svg>
+    <div id="tooltip5"></div>
+    <svg id="histogram"></svg>
+    <div style="font-size: 12px; margin-bottom: 0; margin-left: 435px">
+        <label for="nBin"># bins</label>
+        <select name="nBin" id="nBin">
+            <option value=16>16</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+            <option value=4>4</option>
+            <option value=8>8</option>
+            <option value=32>32</option>
+            <option value=64>64</option>
+        </select>
+    </div>
+ 
+    <div class="container">
+     <div class="margin-right"><svg id="scatterplot"></svg></div>
+     <div><svg id="barchart5"></svg></div>
+    </div>
+    
+    <div id="tooltip"></div>
+
+    <div>
+        Start year: <input type="number" value="1992" min="1992" max="2023" id="start-year-input">
+    </div>
+    <svg id="linechart"></svg>
+
+    <div class="margin-right">
+        <h1>Exoplanets Data</h1>
+        <iframe src="https://onedrive.live.com/embed?cid=0CDF3E164420C075&resid=CDF3E164420C075%2189066&authkey=AAs7szvy5fqNyLs&em=2" width="700" height="400" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+    <!-- D3 bundle -->
+    <script src="js/d3.v6.min.js"></script>
+
+    <!-- Our JS code -->
+    <script src="js/main.js"></script>
+    <script src="js/number_of_stars_for_exoplanets.js"></script>
+    <script src="js/numPlanetsInSystem.js"></script>
+    <script src="js/StellarTypes.js"></script>
+    <script src="js/exoplanetDiscoveryMethod.js"></script>
+    <script src="js/HabitableZone.js"></script>
+    <script src="js/distanceFromEarth.js"></script>
+    <script src="js/discoveryYear.js"></script>
+    <script src="js/RadiusAndMassRelationship.js"></script>
+    <script src="js/RadiusAndMassBarchart.js"></script>
+
+</body>
+</html>
